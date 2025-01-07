@@ -4,10 +4,6 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
-while not game:GetService("Players").LocalPlayer do
-    task.wait(0.1)
-end
-
 print("Owenn World script successfully loaded.")
 
 task.spawn(function()
