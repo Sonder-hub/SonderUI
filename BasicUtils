@@ -1,13 +1,7 @@
-task.spawn(function()
-    while true do
-        task.wait(1)
-        print("Welcome to the Owenn World")
-    end
-end)
--- Anti-AFK
 local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
+    -- Simulate right mouse button press and release
     vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-    wait(1)
+    wait(0.5)  -- Hold the button for 0.5 seconds
     vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
