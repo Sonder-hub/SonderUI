@@ -1,20 +1,15 @@
--- Ensure necessary components are loaded before executing
 print("Initializing Owenn World script...")
 
--- Wait for game to load essential services
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
--- Wait for LocalPlayer to exist
 while not game:GetService("Players").LocalPlayer do
     task.wait(0.1)
 end
 
--- Indicate that the script has loaded successfully
 print("Owenn World script successfully loaded.")
 
--- Main welcome message loop
 task.spawn(function()
     while true do
         task.wait(1)
@@ -22,9 +17,9 @@ task.spawn(function()
     end
 end)
 
--- Anti-AFK
 local VirtualUser = game:GetService("VirtualUser")
 local Players = game:GetService("Players")
+
 Players.LocalPlayer.Idled:Connect(function()
     VirtualUser:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
     task.wait(1)
