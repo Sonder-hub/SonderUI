@@ -1,5 +1,20 @@
-print("Welcome to the Owenn World")
+-- Ensure necessary components are loaded before executing
+print("Initializing Owenn World script...")
 
+-- Wait for game to load essential services
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+-- Wait for LocalPlayer to exist
+while not game:GetService("Players").LocalPlayer do
+    task.wait(0.1)
+end
+
+-- Indicate that the script has loaded successfully
+print("Owenn World script successfully loaded.")
+
+-- Main welcome message loop
 task.spawn(function()
     while true do
         task.wait(1)
@@ -7,15 +22,13 @@ task.spawn(function()
     end
 end)
 
--- Auto-Rejoin
-game:GetService("Players").PlayerRemoving:Connect(function()
-    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+-- Anti-AFK
+local VirtualUser = game:GetService("VirtualUser")
+
+Players.LocalPlayer.Idled:Connect(function()
+    VirtualUser:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+    task.wait(1)
+    VirtualUser:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
 
--- Anti-AFK
-local vu = game:GetService("VirtualUser")
-game:GetService("Players").LocalPlayer.Idled:Connect(function()
-    vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-    wait(1)
-    vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-end)
+print("All systems are running.")
