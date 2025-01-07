@@ -1,0 +1,11 @@
+local placeId = game.PlaceId
+
+if placeId == 117701570624742 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sonder-hub/SonderUI/main/Games/Blades%20%26%20Buffoonery.lua"))()
+
+elseif placeId == 1 then
+    print("Executing script for Place ID 1")
+
+else
+    print("Place ID not recognized. No specific script executed.")
+end
