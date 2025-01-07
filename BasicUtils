@@ -1,4 +1,4 @@
-print("Owenn World script successfully loaded.")
+print("Welcome to the Owenn World")
 
 task.spawn(function()
     while true do
@@ -7,11 +7,15 @@ task.spawn(function()
     end
 end)
 
-local VirtualUser = game:GetService("VirtualUser")
-local Players = game:GetService("Players")
+-- Auto-Rejoin
+game:GetService("Players").PlayerRemoving:Connect(function()
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
 
-Players.LocalPlayer.Idled:Connect(function()
-    VirtualUser:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-    task.wait(1)
-    VirtualUser:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+-- Anti-AFK
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:Connect(function()
+    vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+    wait(1)
+    vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
