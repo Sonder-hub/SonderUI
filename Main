@@ -3,7 +3,7 @@ local placeId = game.PlaceId
 if placeId == 117701570624742 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sonder-hub/SonderUI/main/Games/Blades%20%26%20Buffoonery.lua"))()
 
-elseif placeId == 87854376962069 then
+elseif placeId == 16993432698 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sonder-hub/SonderUI/refs/heads/main/Games/Impossible%20Squid%20Game!%20Glass%20Bridge%202.lua"))()
 
 elseif placeId == 116434053579571 then
