@@ -6,13 +6,6 @@ while not game:GetService("Players").LocalPlayer do
     task.wait(0.1)
 end
 
-task.spawn(function()
-    while true do
-        task.wait(1)
-        print("Welcome to the Owenn World")
-    end
-end)
-
 local VirtualUser = game:GetService("VirtualUser")
 local Players = game:GetService("Players")
 
