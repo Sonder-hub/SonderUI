@@ -6,8 +6,8 @@ if placeId == 117701570624742 then
 elseif placeId == 16993432698 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sonder-hub/SonderUI/refs/heads/main/Games/Impossible%20Squid%20Game!%20Glass%20Bridge%202.lua"))()
 
-elseif placeId == 116434053579571 then
-print("hello")
+elseif placeId == 6403373529 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sonder-hub/SonderUI/refs/heads/main/Games/Slapbattles%20GUI.lua"))()
 else
     print("Place ID not recognized. No specific script executed.")
 end
