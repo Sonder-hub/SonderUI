@@ -1,100 +1,14 @@
-Yap, the sigma skibidi goon moves in silence.
-That skibidi goon just pulled a sigma-level move, yap!
-Yap, only a true sigma can outsmart a skibidi goon.
-The sigma goon hit the skibidi stance like a pro, yap!
-Yap, skibidi goons fear the rise of the sigma elite.
-A sigma never yaps unless it’s to school a skibidi goon.
-Skibidi energy meets sigma grindset, yap!
-Yap, the goon squad couldn’t handle the sigma’s power.
-The skibidi goon tried to flex, but the sigma outplayed him.
-Yap, sigma mindset rejects skibidi foolishness.
-The goon squad yapped too much, now the sigma reigns.
-Skibidi goons unite, but a sigma stands alone, yap!
-Yap, only a sigma can perfect the skibidi dance.
-That skibidi goon tried to yap, but the sigma silenced him.
-The sigma strategy leaves no room for skibidi goon antics.
-Yap, even skibidi goons envy sigma discipline.
-The goon squad learned not to mess with a sigma, yap!
-Skibidi tricks won’t work against sigma intellect, yap!
-Yap, sigma power turns goons into mere spectators.
-A true sigma doesn’t fear a skibidi goon invasion, yap!
-The skibidi goon tried to yap, but the sigma just walked away.
-Yap, sigma patience outlasts goon foolishness.
-Even skibidi goons respect a sigma’s grind, yap!
-The sigma keeps it cool while the skibidi goons yap.
-Yap, the skibidi goon tried to challenge a sigma and failed.
-Only a sigma can balance skibidi chaos with goon control.
-The skibidi goon squad yapped too much, so the sigma walked out.
-Yap, sigma warriors don’t engage in skibidi nonsense.
-The sigma took down the skibidi goon with one move, yap!
-Yap, goons dance while sigmas strategize.
-The skibidi goon tried a sneak attack, but the sigma saw it coming.
-Yap, skibidi goons never learn from sigmas.
-A true sigma doesn’t need to skibidi for attention, yap!
-The goon army fell apart when the sigma walked in, yap!
-Yap, skibidi goons admire the sigma but won’t admit it.
-Sigma mode activated; skibidi goons are confused, yap!
-The goon squad yaps, while sigmas stay focused, yap!
-Yap, a sigma doesn’t skibidi unless it’s part of the plan.
-The skibidi goon underestimated the sigma’s wisdom, yap!
-Yap, the sigma left the skibidi goons wondering what happened.
-The sigma skibidi’d once, and the goons took notes, yap!
-Yap, a sigma’s silence speaks louder than a skibidi goon’s yap.
-Skibidi goons fall apart under sigma discipline, yap!
-The goon leader tried to out-yap a sigma, big mistake, yap!
-Yap, the sigma simply walks past skibidi nonsense.
-The skibidi goon dance-off ended when the sigma arrived, yap!
-Yap, the sigma doesn’t need skibidi approval.
-Skibidi goons yap, but sigmas execute, yap!
-A sigma’s presence alone humbles skibidi goons, yap!
-The sigma ignored the goon’s challenge and just yapped, skibidi-style.
-Yap, a true sigma doesn’t get lost in skibidi theatrics.
-The goon squad yapped too much and the sigma left, yap!
-Skibidi goons run in packs, sigmas walk alone, yap!
-The sigma learned the skibidi dance, but only for tactical reasons, yap!
-Yap, the sigma understands skibidi goon psychology.
-Skibidi goons watch as the sigma takes control, yap!
-Yap, sigma energy is immune to skibidi goon manipulation.
-The skibidi goon got humbled by a sigma’s silence, yap!
-Yap, skibidi goons get distracted, sigmas stay on course.
-The sigma doesn’t fear skibidi goon invasions, yap!
-Yap, the goon tried to impress the sigma with skibidi skills.
-Even skibidi goons recognize sigma dominance, yap!
-The sigma didn’t even need to skibidi to win, yap!
-Skibidi goons yap, but sigma moves are precise, yap!
-The goon leader challenged the sigma and got wrecked, yap!
-Yap, the sigma knows when to skibidi and when to dominate.
-Skibidi goons got left behind when the sigma walked away, yap!
-Yap, a sigma uses skibidi energy strategically.
-The sigma only skibidi’d once, and the goons lost their minds, yap!
-Skibidi goons fall apart when faced with a sigma’s composure, yap!
-Yap, sigma mastery neutralizes skibidi goon chaos.
-The sigma studied the skibidi goons and mastered their moves, yap!
-Skibidi goons got yapped into silence by the sigma, yap!
-Yap, a sigma controls the skibidi battlefield.
-The skibidi goon ran out of energy while the sigma stayed cool, yap!
-Yap, the sigma doesn’t dance for goons.
-Skibidi goons yap all day, but sigma action speaks louder.
-The sigma let the skibidi goons yap, then walked away, yap!
-Yap, a sigma never falls for goon traps.
-The skibidi goon tried to yap but lost his words, yap!
-Yap, sigma strategy beats skibidi chaos.
-The skibidi goon got too close and got sigma-checked, yap!
-The sigma led, and the goons followed, yap!
-Yap, skibidi goons wish they had sigma focus.
-The sigma saw through the goon’s skibidi tricks, yap!
-Yap, even the goon squad respects sigma determination.
-A sigma doesn’t need a skibidi gimmick, yap!
-Yap, skibidi goons waste time while sigmas build empires.
-The goon squad got quiet when the sigma walked in, yap!
-Yap, sigma presence alone makes skibidi goons uneasy.
-The skibidi goon’s plan failed against sigma logic, yap!
-Yap, a true sigma moves smarter than a skibidi goon.
-The sigma took one step, and the skibidi goon got nervous, yap!
-Yap, the goons dance while sigmas make moves.
-The sigma remains unshaken while skibidi goons panic, yap!
-Yap, a sigma’s mindset outlasts a skibidi goon’s hype.
-The skibidi goons were outclassed the moment the sigma arrived, yap!
-Yap, the sigma never wastes time with goon distractions.
-Skibidi goons fear what they don’t understand—a true sigma, yap!
-Yap, the sigma knew the goon would fall before he even moved.
+local yap_sentences = {
+    "Yap, the sigma skibidi goon moves in silence.",
+    "That skibidi goon just pulled a sigma-level move, yap!",
+    "Yap, only a true sigma can outsmart a skibidi goon.",
+    "The sigma goon hit the skibidi stance like a pro, yap!",
+    "Yap, skibidi goons fear the rise of the sigma elite.",
+    "A sigma never yaps unless it’s to school a skibidi goon.",
+    "Skibidi energy meets sigma grindset, yap!",
+    "Yap, the goon squad couldn’t handle the sigma’s power.",
+    "The skibidi goon tried to flex, but the sigma outplayed him.",
+    "Yap, sigma mindset rejects skibidi foolishness.",
+}
+
+return yap_sentences
